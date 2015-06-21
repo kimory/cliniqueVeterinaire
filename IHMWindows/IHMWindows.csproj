@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C9BEE70-AD80-47CC-958B-0352E6976C66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IHMWindows</RootNamespace>
+    <AssemblyName>IHMWindows</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.TeamFoundation.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgendaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgendaForm.Designer.cs">
+      <DependentUpon>AgendaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutVeto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutVeto.Designer.cs">
+      <DependentUpon>AjoutVeto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalForm.designer.cs">
+      <DependentUpon>AnimalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnexionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnexionForm.Designer.cs">
+      <DependentUpon>ConnexionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultationForm.Designer.cs">
+      <DependentUpon>ConsultationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declarations.cs" />
+    <Compile Include="DossierMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DossierMForm.Designer.cs">
+      <DependentUpon>DossierMForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHMOutils.cs" />
+    <Compile Include="PrincipalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForm.Designer.cs">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RdvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RdvForm.Designer.cs">
+      <DependentUpon>RdvForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelanceForm.Designer.cs">
+      <DependentUpon>RelanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VaccinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VaccinForm.Designer.cs">
+      <DependentUpon>VaccinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinaireform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Veterinaireform.Designer.cs">
+      <DependentUpon>Veterinaireform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgendaForm.resx">
+      <DependentUpon>AgendaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutVeto.resx">
+      <DependentUpon>AjoutVeto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimalForm.resx">
+      <DependentUpon>AnimalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnexionForm.resx">
+      <DependentUpon>ConnexionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultationForm.resx">
+      <DependentUpon>ConsultationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DossierMForm.resx">
+      <DependentUpon>DossierMForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForm.resx">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RdvForm.resx">
+      <DependentUpon>RdvForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelanceForm.resx">
+      <DependentUpon>RelanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VaccinForm.resx">
+      <DependentUpon>VaccinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Veterinaireform.resx">
+      <DependentUpon>Veterinaireform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{a2ada2c0-604d-4d4e-87b5-4891e4bab70c}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BO\BO.csproj">
+      <Project>{e8687a5d-352d-453e-b0d7-5836a5d5aa77}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\precedent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajouter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dernier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\precedent1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rechercher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suivant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supprimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\annuler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal-chat-icone-4095-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown-enveloppe-lettre-message-icone-5321-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dossier-ouvrez-icone-6032-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evolution-calendrier-icone-5221-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horloge-rouge-icone-5335-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\femme-groupe-male-utilisateurs-icone-7201-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pilule-icone-4522-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12dc_fond_d_ecran.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
