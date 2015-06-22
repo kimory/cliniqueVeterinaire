@@ -76,9 +76,10 @@
             this.pnlBoutons.Controls.Add(this.btnSuivant);
             this.pnlBoutons.Controls.Add(this.btnPrecedent);
             this.pnlBoutons.Controls.Add(this.btnPremier);
-            this.pnlBoutons.Location = new System.Drawing.Point(8, 3);
+            this.pnlBoutons.Location = new System.Drawing.Point(11, 4);
+            this.pnlBoutons.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlBoutons.Name = "pnlBoutons";
-            this.pnlBoutons.Size = new System.Drawing.Size(709, 43);
+            this.pnlBoutons.Size = new System.Drawing.Size(945, 53);
             this.pnlBoutons.TabIndex = 0;
             // 
             // cbxRechercher
@@ -86,7 +87,8 @@
             this.cbxRechercher.Appearance = System.Windows.Forms.Appearance.Button;
             this.cbxRechercher.AutoSize = true;
             this.cbxRechercher.Image = global::IHMWindows.Properties.Resources.rechercher;
-            this.cbxRechercher.Location = new System.Drawing.Point(493, 2);
+            this.cbxRechercher.Location = new System.Drawing.Point(657, 2);
+            this.cbxRechercher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxRechercher.Name = "cbxRechercher";
             this.cbxRechercher.Size = new System.Drawing.Size(38, 38);
             this.cbxRechercher.TabIndex = 5;
@@ -95,17 +97,19 @@
             // 
             // tbxRechercher
             // 
-            this.tbxRechercher.Location = new System.Drawing.Point(537, 12);
+            this.tbxRechercher.Location = new System.Drawing.Point(716, 15);
+            this.tbxRechercher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxRechercher.Name = "tbxRechercher";
-            this.tbxRechercher.Size = new System.Drawing.Size(169, 20);
+            this.tbxRechercher.Size = new System.Drawing.Size(224, 22);
             this.tbxRechercher.TabIndex = 4;
             // 
             // btnSupprimerClient
             // 
             this.btnSupprimerClient.Image = global::IHMWindows.Properties.Resources.supprimer;
-            this.btnSupprimerClient.Location = new System.Drawing.Point(426, 2);
+            this.btnSupprimerClient.Location = new System.Drawing.Point(568, 4);
+            this.btnSupprimerClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSupprimerClient.Name = "btnSupprimerClient";
-            this.btnSupprimerClient.Size = new System.Drawing.Size(45, 37);
+            this.btnSupprimerClient.Size = new System.Drawing.Size(60, 46);
             this.btnSupprimerClient.TabIndex = 2;
             this.btnSupprimerClient.UseVisualStyleBackColor = true;
             this.btnSupprimerClient.Click += new System.EventHandler(this.btnSupprimerClient_Click);
@@ -113,9 +117,10 @@
             // btnAjouterClient
             // 
             this.btnAjouterClient.Image = global::IHMWindows.Properties.Resources.ajouter;
-            this.btnAjouterClient.Location = new System.Drawing.Point(374, 3);
+            this.btnAjouterClient.Location = new System.Drawing.Point(499, 4);
+            this.btnAjouterClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAjouterClient.Name = "btnAjouterClient";
-            this.btnAjouterClient.Size = new System.Drawing.Size(46, 37);
+            this.btnAjouterClient.Size = new System.Drawing.Size(61, 46);
             this.btnAjouterClient.TabIndex = 3;
             this.btnAjouterClient.UseVisualStyleBackColor = true;
             this.btnAjouterClient.Click += new System.EventHandler(this.btnAjouterClient_Click);
@@ -123,9 +128,10 @@
             // btnDernier
             // 
             this.btnDernier.Image = global::IHMWindows.Properties.Resources.dernier;
-            this.btnDernier.Location = new System.Drawing.Point(186, 3);
+            this.btnDernier.Location = new System.Drawing.Point(248, 4);
+            this.btnDernier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDernier.Name = "btnDernier";
-            this.btnDernier.Size = new System.Drawing.Size(55, 37);
+            this.btnDernier.Size = new System.Drawing.Size(73, 46);
             this.btnDernier.TabIndex = 1;
             this.btnDernier.UseVisualStyleBackColor = true;
             this.btnDernier.Click += new System.EventHandler(this.btnDernier_Click);
@@ -133,9 +139,10 @@
             // btnSuivant
             // 
             this.btnSuivant.Image = global::IHMWindows.Properties.Resources.suivant;
-            this.btnSuivant.Location = new System.Drawing.Point(125, 3);
+            this.btnSuivant.Location = new System.Drawing.Point(167, 4);
+            this.btnSuivant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSuivant.Name = "btnSuivant";
-            this.btnSuivant.Size = new System.Drawing.Size(55, 37);
+            this.btnSuivant.Size = new System.Drawing.Size(73, 46);
             this.btnSuivant.TabIndex = 2;
             this.btnSuivant.UseVisualStyleBackColor = true;
             this.btnSuivant.Click += new System.EventHandler(this.btnSuivant_Click);
@@ -143,9 +150,10 @@
             // btnPrecedent
             // 
             this.btnPrecedent.Image = global::IHMWindows.Properties.Resources.precedent;
-            this.btnPrecedent.Location = new System.Drawing.Point(64, 3);
+            this.btnPrecedent.Location = new System.Drawing.Point(85, 4);
+            this.btnPrecedent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrecedent.Name = "btnPrecedent";
-            this.btnPrecedent.Size = new System.Drawing.Size(55, 37);
+            this.btnPrecedent.Size = new System.Drawing.Size(73, 46);
             this.btnPrecedent.TabIndex = 3;
             this.btnPrecedent.UseVisualStyleBackColor = true;
             this.btnPrecedent.Click += new System.EventHandler(this.btnPrecedent_Click);
@@ -153,9 +161,10 @@
             // btnPremier
             // 
             this.btnPremier.Image = global::IHMWindows.Properties.Resources.premier;
-            this.btnPremier.Location = new System.Drawing.Point(3, 3);
+            this.btnPremier.Location = new System.Drawing.Point(4, 4);
+            this.btnPremier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPremier.Name = "btnPremier";
-            this.btnPremier.Size = new System.Drawing.Size(55, 37);
+            this.btnPremier.Size = new System.Drawing.Size(73, 46);
             this.btnPremier.TabIndex = 0;
             this.btnPremier.UseVisualStyleBackColor = true;
             this.btnPremier.Click += new System.EventHandler(this.btnPremier_Click);
@@ -163,105 +172,118 @@
             // lblCode
             // 
             this.lblCode.AutoSize = true;
-            this.lblCode.Location = new System.Drawing.Point(42, 40);
+            this.lblCode.Location = new System.Drawing.Point(56, 49);
+            this.lblCode.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCode.Name = "lblCode";
-            this.lblCode.Size = new System.Drawing.Size(32, 13);
+            this.lblCode.Size = new System.Drawing.Size(41, 17);
             this.lblCode.TabIndex = 1;
             this.lblCode.Text = "Code";
             // 
             // lblVille
             // 
             this.lblVille.AutoSize = true;
-            this.lblVille.Location = new System.Drawing.Point(48, 247);
+            this.lblVille.Location = new System.Drawing.Point(64, 304);
+            this.lblVille.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVille.Name = "lblVille";
-            this.lblVille.Size = new System.Drawing.Size(26, 13);
+            this.lblVille.Size = new System.Drawing.Size(34, 17);
             this.lblVille.TabIndex = 2;
             this.lblVille.Text = "Ville";
             // 
             // lblCodePostal
             // 
             this.lblCodePostal.AutoSize = true;
-            this.lblCodePostal.Location = new System.Drawing.Point(13, 216);
+            this.lblCodePostal.Location = new System.Drawing.Point(17, 266);
+            this.lblCodePostal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCodePostal.Name = "lblCodePostal";
-            this.lblCodePostal.Size = new System.Drawing.Size(63, 13);
+            this.lblCodePostal.Size = new System.Drawing.Size(83, 17);
             this.lblCodePostal.TabIndex = 3;
             this.lblCodePostal.Text = "Code postal";
             // 
             // lblPrenom
             // 
             this.lblPrenom.AutoSize = true;
-            this.lblPrenom.Location = new System.Drawing.Point(33, 119);
+            this.lblPrenom.Location = new System.Drawing.Point(44, 146);
+            this.lblPrenom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrenom.Name = "lblPrenom";
-            this.lblPrenom.Size = new System.Drawing.Size(43, 13);
+            this.lblPrenom.Size = new System.Drawing.Size(57, 17);
             this.lblPrenom.TabIndex = 4;
             this.lblPrenom.Text = "Prénom";
             // 
             // lblAdresse
             // 
             this.lblAdresse.AutoSize = true;
-            this.lblAdresse.Location = new System.Drawing.Point(31, 154);
+            this.lblAdresse.Location = new System.Drawing.Point(41, 190);
+            this.lblAdresse.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAdresse.Name = "lblAdresse";
-            this.lblAdresse.Size = new System.Drawing.Size(45, 13);
+            this.lblAdresse.Size = new System.Drawing.Size(60, 17);
             this.lblAdresse.TabIndex = 5;
             this.lblAdresse.Text = "Adresse";
             // 
             // lblNom
             // 
             this.lblNom.AutoSize = true;
-            this.lblNom.Location = new System.Drawing.Point(45, 78);
+            this.lblNom.Location = new System.Drawing.Point(60, 96);
+            this.lblNom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNom.Name = "lblNom";
-            this.lblNom.Size = new System.Drawing.Size(29, 13);
+            this.lblNom.Size = new System.Drawing.Size(37, 17);
             this.lblNom.TabIndex = 6;
             this.lblNom.Text = "Nom";
             // 
             // tbxCode
             // 
-            this.tbxCode.Location = new System.Drawing.Point(80, 37);
+            this.tbxCode.Location = new System.Drawing.Point(107, 46);
+            this.tbxCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxCode.Name = "tbxCode";
-            this.tbxCode.Size = new System.Drawing.Size(157, 20);
+            this.tbxCode.Size = new System.Drawing.Size(208, 22);
             this.tbxCode.TabIndex = 7;
             // 
             // tbxNom
             // 
-            this.tbxNom.Location = new System.Drawing.Point(80, 78);
+            this.tbxNom.Location = new System.Drawing.Point(107, 96);
+            this.tbxNom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxNom.Name = "tbxNom";
-            this.tbxNom.Size = new System.Drawing.Size(157, 20);
+            this.tbxNom.Size = new System.Drawing.Size(208, 22);
             this.tbxNom.TabIndex = 8;
             // 
             // tbxPrenom
             // 
-            this.tbxPrenom.Location = new System.Drawing.Point(80, 119);
+            this.tbxPrenom.Location = new System.Drawing.Point(107, 146);
+            this.tbxPrenom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxPrenom.Name = "tbxPrenom";
-            this.tbxPrenom.Size = new System.Drawing.Size(157, 20);
+            this.tbxPrenom.Size = new System.Drawing.Size(208, 22);
             this.tbxPrenom.TabIndex = 9;
             // 
             // tbxAdresse1
             // 
-            this.tbxAdresse1.Location = new System.Drawing.Point(80, 154);
+            this.tbxAdresse1.Location = new System.Drawing.Point(107, 190);
+            this.tbxAdresse1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxAdresse1.Name = "tbxAdresse1";
-            this.tbxAdresse1.Size = new System.Drawing.Size(157, 20);
+            this.tbxAdresse1.Size = new System.Drawing.Size(208, 22);
             this.tbxAdresse1.TabIndex = 10;
             // 
             // tbxCodePostal
             // 
-            this.tbxCodePostal.Location = new System.Drawing.Point(80, 213);
+            this.tbxCodePostal.Location = new System.Drawing.Point(107, 262);
+            this.tbxCodePostal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxCodePostal.Name = "tbxCodePostal";
-            this.tbxCodePostal.Size = new System.Drawing.Size(157, 20);
+            this.tbxCodePostal.Size = new System.Drawing.Size(208, 22);
             this.tbxCodePostal.TabIndex = 11;
             // 
             // tbxVille
             // 
-            this.tbxVille.Location = new System.Drawing.Point(80, 247);
+            this.tbxVille.Location = new System.Drawing.Point(107, 304);
+            this.tbxVille.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxVille.Name = "tbxVille";
-            this.tbxVille.Size = new System.Drawing.Size(157, 20);
+            this.tbxVille.Size = new System.Drawing.Size(208, 22);
             this.tbxVille.TabIndex = 12;
             // 
             // btnEditerAnimal
             // 
             this.btnEditerAnimal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditerAnimal.Location = new System.Drawing.Point(656, 342);
+            this.btnEditerAnimal.Location = new System.Drawing.Point(875, 421);
+            this.btnEditerAnimal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditerAnimal.Name = "btnEditerAnimal";
-            this.btnEditerAnimal.Size = new System.Drawing.Size(55, 37);
+            this.btnEditerAnimal.Size = new System.Drawing.Size(73, 46);
             this.btnEditerAnimal.TabIndex = 15;
             this.btnEditerAnimal.Text = "Modifier";
             this.btnEditerAnimal.UseVisualStyleBackColor = true;
@@ -279,25 +301,28 @@
             this.dgvAnimaux.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAnimaux.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dgvAnimaux.GridColor = System.Drawing.SystemColors.ControlText;
-            this.dgvAnimaux.Location = new System.Drawing.Point(281, 53);
+            this.dgvAnimaux.Location = new System.Drawing.Point(375, 65);
+            this.dgvAnimaux.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvAnimaux.Name = "dgvAnimaux";
             this.dgvAnimaux.ReadOnly = true;
-            this.dgvAnimaux.Size = new System.Drawing.Size(429, 283);
+            this.dgvAnimaux.Size = new System.Drawing.Size(572, 348);
             this.dgvAnimaux.TabIndex = 16;
             // 
             // tbxAdresse2
             // 
-            this.tbxAdresse2.Location = new System.Drawing.Point(80, 180);
+            this.tbxAdresse2.Location = new System.Drawing.Point(107, 222);
+            this.tbxAdresse2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxAdresse2.Name = "tbxAdresse2";
-            this.tbxAdresse2.Size = new System.Drawing.Size(157, 20);
+            this.tbxAdresse2.Size = new System.Drawing.Size(208, 22);
             this.tbxAdresse2.TabIndex = 17;
             // 
             // btnAnnulerAjout
             // 
             this.btnAnnulerAjout.Image = global::IHMWindows.Properties.Resources.annuler;
-            this.btnAnnulerAjout.Location = new System.Drawing.Point(154, 344);
+            this.btnAnnulerAjout.Location = new System.Drawing.Point(205, 423);
+            this.btnAnnulerAjout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAnnulerAjout.Name = "btnAnnulerAjout";
-            this.btnAnnulerAjout.Size = new System.Drawing.Size(44, 37);
+            this.btnAnnulerAjout.Size = new System.Drawing.Size(59, 46);
             this.btnAnnulerAjout.TabIndex = 19;
             this.btnAnnulerAjout.UseVisualStyleBackColor = true;
             this.btnAnnulerAjout.Visible = false;
@@ -306,9 +331,10 @@
             // btnValiderAjout
             // 
             this.btnValiderAjout.Image = global::IHMWindows.Properties.Resources.valider;
-            this.btnValiderAjout.Location = new System.Drawing.Point(109, 344);
+            this.btnValiderAjout.Location = new System.Drawing.Point(145, 423);
+            this.btnValiderAjout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnValiderAjout.Name = "btnValiderAjout";
-            this.btnValiderAjout.Size = new System.Drawing.Size(39, 37);
+            this.btnValiderAjout.Size = new System.Drawing.Size(52, 46);
             this.btnValiderAjout.TabIndex = 18;
             this.btnValiderAjout.UseVisualStyleBackColor = true;
             this.btnValiderAjout.Visible = false;
@@ -318,9 +344,10 @@
             // 
             this.btnSupprimerAnimal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSupprimerAnimal.Image = global::IHMWindows.Properties.Resources.supprimer;
-            this.btnSupprimerAnimal.Location = new System.Drawing.Point(608, 342);
+            this.btnSupprimerAnimal.Location = new System.Drawing.Point(811, 421);
+            this.btnSupprimerAnimal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSupprimerAnimal.Name = "btnSupprimerAnimal";
-            this.btnSupprimerAnimal.Size = new System.Drawing.Size(42, 37);
+            this.btnSupprimerAnimal.Size = new System.Drawing.Size(56, 46);
             this.btnSupprimerAnimal.TabIndex = 14;
             this.btnSupprimerAnimal.UseVisualStyleBackColor = true;
             this.btnSupprimerAnimal.Click += new System.EventHandler(this.btnSupprimerAnimal_Click);
@@ -329,9 +356,10 @@
             // 
             this.btnAjouterAnimal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAjouterAnimal.Image = global::IHMWindows.Properties.Resources.ajouter;
-            this.btnAjouterAnimal.Location = new System.Drawing.Point(559, 342);
+            this.btnAjouterAnimal.Location = new System.Drawing.Point(745, 421);
+            this.btnAjouterAnimal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAjouterAnimal.Name = "btnAjouterAnimal";
-            this.btnAjouterAnimal.Size = new System.Drawing.Size(43, 37);
+            this.btnAjouterAnimal.Size = new System.Drawing.Size(57, 46);
             this.btnAjouterAnimal.TabIndex = 6;
             this.btnAjouterAnimal.UseVisualStyleBackColor = true;
             this.btnAjouterAnimal.Click += new System.EventHandler(this.btnAjouterAnimal_Click);
@@ -355,18 +383,20 @@
             this.groupBox1.Controls.Add(this.tbxPrenom);
             this.groupBox1.Controls.Add(this.tbxCodePostal);
             this.groupBox1.Controls.Add(this.tbxAdresse1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 53);
+            this.groupBox1.Location = new System.Drawing.Point(11, 65);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(267, 285);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(356, 351);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Informations Client :";
             // 
             // ClientForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 404);
+            this.ClientSize = new System.Drawing.Size(976, 497);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnAnnulerAjout);
             this.Controls.Add(this.dgvAnimaux);
@@ -376,6 +406,7 @@
             this.Controls.Add(this.btnAjouterAnimal);
             this.Controls.Add(this.pnlBoutons);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ClientForm";
             this.Text = "Clients";
             this.Load += new System.EventHandler(this.ClientForm_Load);
